@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="col-6">
+            <form>
+                <h2 class="mt-5">BÀI TẬP JAVASCRIPT BUOI 6</h2>
+
+                <div class="form-group">
+                  <label for="inputNum1">Nhập vào một số nguyên</label>
+                  <input type="number" class="form-control" id="inputNum1" aria-describedby="emailHelp">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary" id="btnTinh">Tính</button>
+                <p id="txtThongBao1" class="alert alert-success"> Tổng các số chẵn: </p>
+                <p id="txtThongBao2" class="alert alert-success"> Số chia hết cho 3 từ 0-1000: </p>
+                <p id="txtThongBao3" class="alert alert-success"> Số nguyên dương nhỏ nhất mà : 1 + 2 + … + n > 10000 là: </p>
+
+                <div class="form-group">
+                    <label for="inputNum2">Nhập số x: </label>
+                    <input type="number" class="form-control" id="inputNum2" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputNum3">Nhập số n: </label>
+                    <input type="number" class="form-control" id="inputNum3" aria-describedby="emailHelp">
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="btnTinh2">Tính</button>
+                <p id="txtThongBao4" class="alert alert-success"> Tổng: S(n) = x + x^2 + x^3 + … + x^n: </p>
+               
+               
+                <div class="form-group">
+                    <label for="inputNum4">Nhập số n (giai thừa): </label>
+                    <input type="number" class="form-control" id="inputNum4" aria-describedby="emailHelp">
+                  </div>
+                 
+                  <button type="submit" class="btn btn-primary" id="btnTinh3">Tính</button>
+                <p id="txtThongBao5" class="alert alert-success"> Tính giai thừa 1*2*...n: </p>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
